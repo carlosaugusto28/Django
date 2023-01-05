@@ -1,0 +1,9 @@
+dirpy -m django startproject (nome do seu projeto) // com isso o django cria uma pasta ja pronta
+
+py manage.py runserver // isso vai forçar o django a startar o banco de dados em um host
+
+py manage.py startapp (nome do seu app) // vai ser criado uma pasta dentro do projeto com os dados do seu app pra ser editado
+
+py manage.py makemigrations // isso vai entrar na sua pasta pra pegar os arquivos modificado pra fazer a migração
+
+py manage.py migrate // pega todos os arquivos migrados e joga eles para o banco de dados
